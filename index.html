@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Puzzle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+</body>
+</html>
+
+<body>
+  <div class="head">
+    <h2>Number Puzzle Game</h2>
+  </div>
+  <div id="Container">
+    <table id="field" style="border: 1px solid white"></table>
+  </div>
+
+  <div id="difficulty_container">
+    <div class="difficulty_button active" onclick="play()">Play</div>
+    <div class="difficulty_button active" onclick="init()">Next Round </div>
+    <div class="difficulty_button active" id="new">Record</div>
+    
+  </div>
+
+<h3>Moves : <span id="Turns">0</span></h3>
+
+<h2>Timer: 
+  <span id="hr">00</span>
+  <span> : </span>
+  <span id="min">00</span>
+  <span> : </span>
+  <span id="sec">00</span>
+</h2>
+
+
+<div class="previous">
+  <div class="records">
+    <h1>Previous Round Record</h1>
+  
+  </div>
+ 
+  <h1 id="plays"></h1> 
+  <h2 id="timer"></h2>
+  <h3 id="prevturn"></h3>
+  <h4 id="compl"></h4>
+</div>
+
+
+<script src="game.js"></script>
+  
+</body>
+
+
+
+
+</html>
